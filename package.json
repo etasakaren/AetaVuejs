@@ -1,0 +1,25 @@
+{
+    "name": "aetavuejs",
+    "version": "1.0.0",
+    "description": "Vue Project",
+    "scripts": {
+        "lite": "lite-server -port 10000",
+        "start": "npm run lite"
+    },
+    "browser": {
+        "vue": "vue/dist/vue.common"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "bootstrap-vue": "^2.16.0",
+        "jquery": "^3.5.1",
+        "lite-server": "2.5.4",
+        "popper.js": "^1.16.1",
+        "semver": "^7.3.2",
+        "vue": "^2.6.11"
+    },
+    "main": "index.js",
+    "devDependencies": {}
+}
